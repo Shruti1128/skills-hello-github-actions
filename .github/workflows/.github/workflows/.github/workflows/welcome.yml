@@ -1,6 +1,2 @@
-name: Post welcome comment
-on:
-  pull_request:
-    types: [opened]
-permissions:
-  pull-requests: write
+git reset --hard HEAD~1
+git push origin welcome-workflow --force
